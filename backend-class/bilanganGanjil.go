@@ -10,3 +10,9 @@ func BilanganGanjil(inputValue int){
 		fmt.Printf(" %d adalah bilangan Ganjil \n", inputValue)
 	}
 }
+
+func main() {
+
+	value := 7
+	BilanganGanjil(value)
+}
